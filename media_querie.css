@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*cabeçalho*/
+header{
+padding: 10px;
+background-color:rgb(131, 158, 163);
+color: aliceblue;
+}
+h1{
+    text-align: center;
+}
+/*conteúdo*/
+main{
+    background-image: url(fundo.jpg);
+    color: aliceblue;
+}
+div{
+    padding: 20px;
+}
+h2{
+    font-size: 30px;
+    padding-left: 20px;
+}
+div p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style:oblique
+}
+div img{
+    width: 600px;
+}
+@media print{
+    h1{
+        color: aliceblue;
+    }
+    p{
+        font-size: 0.5cm;
+    }
+    div img{
+        width:50% ;
+        margin-top: 10px;
+    }
+    main{
+        width: 80%;
+        margin: auto;
+    }
+}
+/*@media screen and (max-width:300px)*/
+@media screen and (max-width:300px){
+    header img{
+        display: inline;
+        width: 30%;
+    }
+    header{
+        display: flex;
+    }
+    section div{
+        display: flex;
+    }
+    div img{
+        width: 150px;
+    }
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        color: brown;
+    }
+    h2{
+        font-family: 'Times New Roman', Times, serif;
+        color: brown;
+    }
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        color: brown;  
+    }
+}
+/*@media screen and (min-width:301px) and (max-width:600px)*/
+@media screen and (min-width:301px) and (max-width:600px) {
+    header img{
+        display: inline;
+        width: 30%;
+    }
+    header{
+        display: flex;
+    }
+    section div{
+        display: flex;
+    }
+    div img{
+        width: 300px;
+    }
+    h1{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:darkolivegreen;  
+    }
+    h2{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:darkolivegreen;  
+    }
+    p{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:darkolivegreen;  
+    }
+}
+@media screen and (max-width:1000px) {
+}
